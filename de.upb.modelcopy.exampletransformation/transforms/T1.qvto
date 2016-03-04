@@ -1,0 +1,16 @@
+import ModelcopyLibrary;
+
+modeltype ecore uses 'http://www.eclipse.org/emf/2002/Ecore';
+
+transformation EcoreTest(in input : ecore, out output : ecore);
+
+main() {
+	input.rootObjects().map transform();
+}
+
+mapping EClass::transform() : EClass inherits Element::transform {
+	name := 'test' + self.name;
+}
+
+mapping EAttribute::transform() : EAttribute inherits Element::transform when { self.name != 'a1' } {
+}
