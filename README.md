@@ -1,5 +1,9 @@
 # Eclipse QVTO ModelCopy Technology
 
+#### Licence
+The ModelCopy Technology is licenced under EPL (Eclipse Public Licence).
+
+
 #### Installation Instructions
 1. Download "Eclipse Modeling Components". Might work with other Eclipse Editions, just make sure you install EMF.
 2. Install QVTO 3.6 (currently only on nightly update-site):
@@ -12,7 +16,7 @@
       http://raw.githubusercontent.com/ingo-budde/ICMT16-ModelCopy/master/de.upb.modelcopy.updatesite/site.xml
     * Select ModelCopy, proceed until Finish.
 
-### Example
+#### Example
 1. Import Example Transformation into Workspace
     * Window -> Show View -> Other... -> Plug-in Development -> Plug-ins
     * A new "Plug-ins" view appears (probably at the bottom of the screen).
