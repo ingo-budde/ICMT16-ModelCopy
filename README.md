@@ -8,7 +8,7 @@
    * Select QVTo-NXXXXXXXXXXXX, Next, Next, Accept Licence, Next, Finish.
 
 3. Install ModelCopy Library
-    * Like step 1, with the following Update-Site URL:
+    * Like step 2, with the following Update-Site URL:
       http://raw.githubusercontent.com/ingo-budde/ICMT16-ModelCopy/master/de.upb.modelcopy.updatesite/site.xml
     * Select ModelCopy, proceed until Finish.
 
